@@ -1,0 +1,194 @@
+:root {
+	--mainColour: #7B4CD1;
+	--mainBgColour: #fff;
+	--secBgColour: #f1f1f1;;
+}
+
+body {
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+/*Navbar*/
+
+nav {
+	color: var(--mainBgColour);
+	min-height: 102px;
+	z-index:1;
+}
+
+.navBarT {
+	background-color: var(--mainColour);
+    position: fixed;
+    top: 0;
+    width: 100%;
+	margin-bottom: 25px;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 2em;
+	float:right;
+	text-align: start;
+}
+
+.myButton {
+	margin: auto;
+}
+
+a .myButton {
+	border: 1px white solid;
+	border-radius: 5px;
+	height: 70px;
+	padding: 2px;
+	width: auto;
+}
+
+a .myButton:hover {
+	background-color: #49258e;
+	border: 1px white solid;
+}
+
+.navBarTR {
+	padding:10px 2px 0px 2px
+}
+
+.navBarTR a {
+	color: #fff;
+}
+
+.navBarTR a:hover {
+	background-color: #fff;
+	color: var(--mainColour);
+}
+
+/*MIGHT NOT BE USED*/
+nav a img {
+	width:50px;
+	height:50px;
+	margin-right: 10px;
+}
+
+/*CURRENTLY NO FORM*/
+/*.myForm {
+	max-width: 200px;
+	display: inline-flex;
+}*/
+
+/*Sidebar*/
+
+.ulL {
+	list-style: none;
+	padding-left: 20px;
+	margin-top: 100px;
+	position: fixed;
+	top: 10px;
+	width: 200px;
+}
+
+.ulL a:hover {
+	background-color: #f1f1f1;
+}
+
+hr {
+	border: 1px solid var(--mainColour);
+}
+
+/*DOESN'T SEEM TO BE BEING USED*/
+/*.conContent {
+	margin-top: 100px;
+	top: 10px;	
+}*/
+
+/*Contacts*/
+
+.ulR {
+	background-color: #fff;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+	list-style:none;
+	margin-top: 100px;
+	padding-left: 10px;
+	overflow:hidden; 
+	overflow-y:scroll;
+	height:50vh; 
+	width: 16vw;
+	border: solid var(--mainColour);
+	border-width: 1px 0px 0px 1px;
+	z-index:1;
+	min-width: 250px;
+	}
+
+.liContacts {
+	width: 16vw;
+	background-color: var(--mainColour);
+	position: fixed;
+	right: 0px;
+	padding: 10px;
+	color: #fff;
+	min-width: 250px;
+}
+
+.liX {
+	margin-right: 20px;
+}
+
+a svg {
+	color: white;
+}
+
+a:hover svg {
+	color: var(--mainColour);
+	background-color: white;
+}
+
+li a {
+	color:#000;
+	padding: 2px;
+	white-space: nowrap; /* Constrain to one line*/
+	overflow: hidden;/* Constrain to one line*/
+}
+
+li a:hover {
+	color: var(--mainColour);
+	text-decoration-line: none;
+	border-radius: 10px;
+	white-space: nowrap; /* Constrain to one line*/
+	overflow: hidden;/* Constrain to one line*/
+}
+
+/*Footer*/
+
+footer {
+	background-color: #f1f1f1;
+	width: 300px;
+	border: solid #7B4CD1;
+	border-width: 1px 1px 0px 0px;
+}
+
+footer a, footer a:hover {
+	color: #7B4CD1;
+	text-decoration-line: none;
+	font-weight: lighter;
+	font-size: 0.8em;
+	padding: 0px 10px;
+}
+
+/*Main Content*/
+
+.myContent {
+	margin-top: 130px;
+}
+
+.myCard {
+	padding: 10px;
+	border: 3px solid var(--mainColour);
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.myCard a, a:hover {
+	color: #000;
+	text-decoration-line: none;
+}
+
